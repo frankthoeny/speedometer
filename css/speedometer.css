@@ -1,0 +1,319 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.speedometer {
+  position: relative;
+  height: 450px;
+  width: 450px;
+  margin: 0 auto;
+  padding: 0;
+  overflow: auto;
+}
+
+.center {
+  width: 450px;
+  height: 450px;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  overflow: auto;
+}
+
+.expand {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.anchor {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.element {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.circle-1 {
+  height: 430px;
+  width: 430px;
+}
+
+.circle-2 {
+  height: 420px;
+  width: 420px;
+}
+
+.circle-3 {
+  position: relative;
+  height: 317px;
+  width: 317px;
+}
+
+.circle-4 {
+  height: 300px;
+  width: 300px;
+}
+
+.circle-5 {
+  height: 215px;
+  width: 215px;
+}
+
+.circle-7 {
+  height: 210px;
+  width: 210px;
+}
+
+.circle-8 {
+  height: 180px;
+  width: 180px;
+}
+
+.circle-6 {
+  height: 55px;
+  width: 55px;
+}
+
+.screw-head {
+  height: 18px;
+  width: 18px;
+}
+
+.screw-head.left {
+  position: absolute;
+  top: 50%;
+  left: 36%;
+  transform: translate(-50%, -50%);
+}
+
+.screw-head.right {
+  position: absolute;
+  top: 50%;
+  left: 64%;
+  transform: translate(-50%, -50%);
+}
+
+.slot {
+  height: 17px;
+  width: 4px;
+  margin: 0 auto;
+  transform: rotate(65deg);
+}
+
+.tick.major {
+  position: absolute;
+  width: 3px;
+  height: 27px;
+  transform-origin: -50% 100%;
+}
+
+.tick.minor {
+  position: absolute;
+  width: 2px;
+  height: 16px;
+  transform-origin: -50% 100%;
+}
+
+.mph {
+  transform: rotate(228deg);
+}
+
+.needle {
+  width: 9px;
+  height: 145px;
+  border-radius: 30% 30% 0 0;
+  transform: translate(-50%, -100%) translateY(-18px);
+}
+
+.mph-label {
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  margin-left: -26px;
+}
+
+.mph-number {
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.kph-label {
+  display: none;
+  position: absolute;
+  top: 110.2px;
+  left: -80.3px;
+}
+
+.kph-number {
+  display: none;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.odometer {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  top: 257px;
+  left: 164px;
+  width: 124px;
+  height: 25px;
+}
+
+.odometer div {
+  width: 29px;
+  height: 20px;
+}
+
+.panel-light-container {
+  position: absolute;
+  top: 299px;
+  left: 50%;
+  margin-left: -110px;
+  display: flex;
+  flex-direction: row;
+  width: 224px;
+  height: 100px;
+}
+
+.arrow-left-light {
+  margin: 42px 0 0 22px;
+  width: 44px;
+  height: 19px;
+  clip-path: polygon(100% 0%, 0% 50%, 100% 100%);
+}
+
+.arrow-right-light {
+  margin: 42px 0 0 16px;
+  width: 44px;
+  height: 19px;
+  clip-path: polygon(100% 50%, 0% 0%, 0% 100%);
+}
+
+.brake-light {
+  margin: 44px 0 0 16px;
+  width: 56px;
+  height: 32px;
+  padding: 5px 8px;
+  clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+}
+
+
+
+
+/* .speedometer__guage__body {
+  position: relative;
+  height: 250px;
+  width: 250px;
+  border-radius: 150px;
+  background-color: green;
+  border: 1px solid rgb(66, 60, 60);
+}
+
+.speedometer__guage__text {
+  width: 250px;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.speedometer__guage__text li {
+  position: absolute;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: #fff5ee;
+}
+
+.one {
+  font-weight: bolder;
+  transform: rotate(-38deg) translate(-89px, 160px);
+}
+
+.one:before {
+  content: "\2014 \2002";
+}
+
+.two {
+  font-weight: 500;
+  transform: rotate(-30deg) translate(-70px, 163px);
+}
+
+.two:before {
+  content: "\2013 \2002";
+}
+
+.three {
+  font-weight: bolder;
+  transform: rotate(-23deg) translate(-53px, 149px);
+}
+
+.three:before {
+  content: "\2013 \2002";
+} */
+
+/* .mph-10 {
+  padding-left: 0.4em;
+}
+
+.mph-11 {
+  padding-left: 0.25em;
+} 
+
+.speedometer__guage__fill {
+  position: absolute;
+  top: 47%;
+  left: 14%;
+  width: 35%;
+  height: 4px;
+  border-radius: 43%;
+  background-color: #ff4500;
+  transform-origin: bottom right;
+  transform: rotate(0.25turn);
+  transition: transform 0.2s ease-out;
+}
+
+.speedometer__guage__cover {
+  display: none;
+  width: 20%;
+  height: 20%;
+  background-image: linear-gradient(rgb(245, 242, 242),
+      rgb(66, 60, 60),
+      rgb(231, 228, 228));
+  border-radius: 50%;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.speedometer__guage__cover:after {
+  width: 80%;
+  height: 80%;
+  background: #000;
+  border-radius: 50%;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  content: "";
+} */

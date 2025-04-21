@@ -1,0 +1,153 @@
+body {
+    font-size: 1.2em;
+    font-family: "Archivo Narrow", Helvetica, Arial, sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.circle-1 {
+    background-color: rgb(66, 60, 60);
+    border: 10px solid rgb(43, 48, 48);
+    /* background-image: linear-gradient(rgb(38, 36, 158) 5%, rgb(0 0 0) 15%, rgb(45, 45, 45) 60%); */
+    box-shadow: 6px 6px 8px 0 rgba(128, 0, 0, 0.2), 3px 4px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.circle-2 {
+    background-color: rgb(60, 73, 85);
+}
+
+.circle-3 {
+    border: 3px solid rgb(93, 118, 129);
+}
+
+.circle-4 {
+    border: 2px solid rgba(253, 250, 250, 0.965);
+}
+
+.circle-5 {
+    border: 3px solid rgb(80 83 84);
+}
+
+.circle-7 {
+    background-color: rgb(84, 110, 122);
+    border: 1px solid black;
+}
+
+.circle-8 {
+    background-color: rgb(84, 110, 122);
+    border: 1px solid black;
+}
+
+.circle-6 {
+    background-image: radial-gradient(rgb(63, 107, 124) 60%, rgb(75, 94, 97) 5%, rgb(64 64 64) 15%);
+    box-shadow: -10px -56px 28px 0 rgba(0, 70, 128, 0.2), 3px 4px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.screw-head {
+    background-image: radial-gradient(rgb(79, 80, 80) 3%, rgb(70, 75, 75) 50%, rgb(61, 62, 63) 10%);
+    box-shadow: 1px 1px 6px 0 rgb(75, 73, 73);
+}
+
+.slot {
+    background-image: radial-gradient(rgb(79, 80, 80) 3%, rgb(43, 48, 48) 50%, rgb(61, 62, 63) 10%);
+    box-shadow: 0 2px 2px rgb(122, 126, 126);
+}
+
+.tick.major {
+    background-color: rgb(253, 250, 250);
+}
+
+.tick.minor {
+    background-color: rgb(253, 250, 250);
+}
+
+.needle {
+    /* border-left: 1px solid rgb(255, 153, 0); */
+    background-image: linear-gradient(to right, rgb(255, 115, 0), rgb(245, 197, 180));
+    box-shadow: 1px 2px 8px 0 rgba(0, 70, 128, 0.2), 3px 4px 6px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mph-label {
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+
+.mph-number {
+    font-family: "Barlow Condensed", Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    color: rgb(255, 255, 255);
+}
+
+.kph-label {
+    font-size: 22px;
+    color: rgb(187, 60, 2);
+}
+
+.kph-number {
+    font-size: 14px;
+    color: rgb(187, 60, 2);
+}
+
+.odometer {
+    border: 5px inset rgb(61, 62, 63);
+}
+
+.odometer div {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 21px;
+    line-height: 21px;
+    background-image: linear-gradient(20deg, rgb(45, 45, 45), rgb(92, 98, 104), rgb(45, 45, 45));
+    text-align: center;
+    color: rgb(253, 250, 250);
+}
+
+.odometer div:not(:first-child):not(:last-child) {
+    border-left: 1px solid rgb(70, 70, 70);
+    border-right: 1px solid rgb(70, 70, 70);
+}
+
+.odometer div:last-child {
+    background-image: linear-gradient(10deg, rgb(204, 208, 212), rgb(233, 230, 230), rgb(204, 208, 212));
+    color: rgb(43, 48, 48);
+}
+
+
+.panel-light-container {
+    background-color: rgb(60, 73, 85);
+    background-image: linear-gradient(0deg, rgb(60, 73, 85), rgb(45, 45, 45));
+    background-image: linear-gradient(0deg, rgb(61 75 88), rgb(70 64 64));
+}
+
+.arrow-left-light {
+    background-color: green;
+    background-image: linear-gradient(to left, rgb(0, 128, 0), rgb(103, 233, 91));
+    border: 1px solid rgb(124, 122, 122);
+}
+
+.arrow-left-light.active {
+    background-image: linear-gradient(to left, rgb(0, 207, 0), rgb(103, 233, 91));
+}
+
+.arrow-right-light {
+    background-color: rgb(0, 128, 0);
+    background-image: linear-gradient(to right, rgb(0, 128, 0), rgb(103, 233, 91));
+    border: 1px solid rgb(124, 122, 122);
+}
+
+.arrow-right-light.active {
+    background-image: linear-gradient(to right, rgb(0, 207, 0), rgb(103, 233, 91));
+}
+
+.brake-light {
+    font-family: "Barlow Condensed", Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    background-image: linear-gradient(to right, rgb(219, 2, 2), rgb(192, 25, 25), rgb(233, 129, 91));
+    border: 2px inset rgb(97, 78, 78);
+    border-radius: 2px;
+}
+
+.brake-light.active {
+    background-image: linear-gradient(to right, rgb(255, 4, 4), rgb(255, 18, 18), rgb(241, 154, 122));
+}
